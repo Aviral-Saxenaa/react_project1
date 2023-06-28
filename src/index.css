@@ -1,13 +1,75 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+body,html{
+        background-color: #D1D9DD;
+}
+.container{
+        width: 80%;
+        margin: auto;
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        
+        transition: .5s background-color,border-radius;
+        margin-bottom: 5vh;
+        margin-top: 10vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container:hover{
+        background-color:rgb(46, 45, 40) ;
+        border-radius: 20px;
+        
 }
+
+.cards{
+        transition: .5s;
+        border-radius: 17%;
+        background-color: rgb(171, 168, 168);
+        box-shadow: 10px 5px 10px rgba(0,0,0,0.5);
+}
+.cards:hover{
+        transform: scale(1.1);
+}
+.heading{
+
+        height: 15vh;
+        line-height: 15vh;
+        color: #9E9C95;
+        /* background-color:rgb(51, 67, 131) ; */
+        background-color: whitesmoke;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        text-align: center;
+}
+.card_img{
+        width: 300px;
+        height: 300px;
+}
+
+.card_info{
+        padding: 20px;
+        /* text-align: center; */
+}
+.card_category{
+        color: red;
+        padding-bottom: 10px;
+}
+.card_title{
+        padding-bottom: 10px;
+        letter-spacing: 1px;
+}
+a{
+        text-decoration: none;
+        color: #9E9C95;
+}
+button{
+        background-color: black;
+        padding: 5px 12px;
+        transition: .2s background-color,color;
+        border-radius: 5px;
+}
+
