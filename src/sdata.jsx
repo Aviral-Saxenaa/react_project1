@@ -11,7 +11,7 @@ const sdata = [
         {
                 id:2,
                 imgscr: "https://www.koimoi.com/wp-content/new-galleries/2023/05/stranger-things-season-5-comes-to-a-halt-amid-the-ongoing-hollywood-wrtiters-strike-the-creators-share-disappointing-news-as-fans-react-001.jpg",
-                title: "A Netflix Original Series",
+                title: "A Amazon Original Series",
                 sname: "Stranger Things",
                 slink:"https://www.netflix.com/browse"
         },
